@@ -1,0 +1,1043 @@
+body {
+    min-width: 768px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.yellow-buttons {
+    position: relative;
+    padding: 14px 21px 16px 21px;
+    background: #FFD063;
+    border: 1px solid #FFD063;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #013A4C;
+    cursor: pointer;
+}
+
+.navigation-menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px 0px 10px rgba(1, 58, 76, 0.2);
+
+    .navigation-menu-buttons {
+        color: #013A4C;
+        font-family: 'Work Sans';
+        font-size: 16px;
+        line-height: 20px;
+        border: none;
+        background-color: inherit;
+        cursor: pointer;
+    }
+
+    .brandname-img {
+        position: relative;
+        left: 48.03px;
+
+        @media (max-width: 920px) {
+            display: none;
+        }
+    }
+
+    .whyoneflow-button {
+        margin-left: 431px;
+        white-space: nowrap;
+
+        @media (max-width: 1400px) {
+            margin-left: 191px;
+        }
+
+        @media (max-width: 1100px) {
+            margin-left: 50px;
+        }
+
+        @media (max-width: 800px) {
+            margin-left: 0px;
+        }
+    }
+
+
+    .learn-pricing-button {
+        margin-left: 62px;
+
+        @media (max-width: 1070px) {
+            margin-left: 45px;
+        }
+
+        @media (max-width: 768px) {
+            margin-left: 32px;
+        }
+    }
+
+    .about-blog-button {
+        margin-left: 32px;
+    }
+
+    .demo-button {
+        margin-left: 48px;
+        padding: 11px 17px;
+        white-space: nowrap;
+    }
+
+    .log-button {
+        margin-left: 8px;
+        padding: 11px 17px;
+        background: #FFFFFF;
+        border: 1px solid #346170;
+        border-radius: 4px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .world-img {
+        margin: 0 30px 0 50px;
+
+        @media (max-width: 1200px) {
+            display: none;
+        }
+    }
+}
+
+
+.work-wonders-content {
+    position: relative;
+    background-image: url("../img/page1/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    padding: 210px 0 0 144px;
+    color: #013A4C;
+
+    .header {
+        font-size: 76px;
+        line-height: 78px;
+        letter-spacing: 3px;
+    }
+
+    .text-description {
+        margin-top: 31px;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 2px;
+    }
+
+    .work-wonders-buttons {
+        padding-top: 25px;
+
+        .take-button {
+            margin-left: 16px;
+            padding: 14px 21px;
+            position: relative;
+            background: #013A4C;
+            border: 1px solid #013A4C;
+            border-radius: 4px;
+            font-size: 15px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.turn-signatures {
+    height: 1651px;
+    position: relative;
+    background: #013A4C;
+    color: #FFFFFF;
+
+
+    &-menu {
+        text-align: center;
+        padding-top: 80px;
+
+        .turn-signatures-header {
+            font-size: 25px;
+            letter-spacing: 0.5px;
+        }
+
+        &-imgs {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 48px;
+            align-items: center;
+            margin: 0 291px 0 292px;
+            cursor: pointer;
+
+            img+img {
+                margin-left: 32px;
+
+                @media (max-width: 960px) {
+                    margin-left: 15px;
+                }
+
+                @media (max-width: 768px) {
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+
+    .turn-signatures-content {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 157px 0 154px;
+
+        @media (max-width: 900px) {
+            text-align: center;
+        }
+
+        &-header {
+            font-weight: 400;
+            font-size: 70px;
+            margin: 0;
+        }
+
+        .text-information {
+            font-size: 21px;
+            margin: 0;
+            padding-top: 38px;
+
+        }
+
+        .take-button {
+            padding: 14px 21px;
+            margin-top: 20px;
+        }
+
+        .turn-signature-img {
+            height: 400px;
+            width: 400px;
+            padding: 30px 40px 0 0;
+
+            @media (max-width: 900px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.collaborate {
+    height: 600px;
+    background-color: #D3E8F4;
+    border-radius: 8px;
+    margin: 128px 144px;
+
+    @media (max-width: 1200px) {
+        margin: 128px 100px;
+        text-align: center;
+    }
+
+    .collaborate-menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0px 113px 0 113px;
+        border-bottom: 1px solid #94B4C2;
+        height: 120px;
+
+        .collaborate-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .collaborate-img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        button {
+            background-color: #D3E8F4;
+            border: none;
+            color: #013A4C;
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-size: 17px;
+            line-height: 24px;
+            cursor: pointer;
+        }
+    }
+
+
+    .collaborate-content {
+        display: flex;
+        justify-content: space-between;
+        color: #013A4C;
+
+        @media (max-width: 1200px) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .collaborate-text-and-button {
+            margin: 37px 0 0 64px;
+
+            @media (max-width: 1200px) {
+                margin: 0;
+            }
+
+            .collaborate-header {
+                font-weight: 700;
+                font-size: 55px;
+                margin: 0;
+            }
+
+            .collaborate-description-text {
+                font-size: 21px;
+                margin: 0;
+                padding: 11px 0 56px 0;
+            }
+
+            .list-items {
+                display: flex;
+                align-items: flex-start;
+                padding-bottom: 8px;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .learn-more-button {
+                margin-top: 36px;
+                padding: 11px 17px;
+                background: #D3E8F4;
+                border: 1px solid #346170;
+                border-radius: 4px;
+                font-size: 14px;
+                color: #013A4C;
+                cursor: pointer;
+            }
+        }
+
+        .tennis-img {
+            margin-top: 60px;
+
+            @media (max-width: 1200px) {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.press-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 814px;
+    background-image: url(../img/page3/hand\ with\ circle11.jpg);
+    background-size: cover;
+    // background-repeat: no-repeat;
+
+    @media (max-width: 1330px) {
+        background-image: none;
+        background: #dcaab5;
+    }
+
+
+    img {
+        cursor: pointer;
+
+        @media (max-width: 1330px) {
+            height: 200px;
+        }
+
+        @media (max-width: 1115px) {
+            height: 150px;
+        }
+
+        @media (max-width: 840px) {
+            height: 100px;
+        }
+    }
+
+    span {
+        display: none;
+
+        @media (max-width: 1330px) {
+            display: inline;
+            text-align: center;
+            font-size: 200px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        @media (max-width: 1115px) {
+            font-size: 150px;
+        }
+
+        @media (max-width: 840px) {
+            font-size: 100px;
+        }
+    }
+}
+
+
+.complete-platform {
+    padding: 122px 144px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, min-content);
+    grid-template-areas:
+        "complete-platform complete-platform"
+        ". forget-friction"
+        "unlesh-data ."
+        ". take-control";
+    height: 2310px;
+    background-image: url(../img/page4/main\ fone.png);
+    color: #013A4C;
+    white-space: nowrap;
+
+    @media (max-width: 900px) {
+        grid-template-areas:
+            "complete-platform complete-platform"
+            "forget-friction forget-friction"
+            "unlesh-data unlesh-data"
+            "take-control take-control";
+        text-align: center;
+    }
+
+    h1 {
+        grid-area: complete-platform;
+        margin: 0;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: center;
+        letter-spacing: 0.7px;
+
+        @media (max-width: 900px) {
+            font-size: 50px;
+        }
+    }
+
+    .forget-friction {
+        grid-area: forget-friction;
+        padding-top: 153px;
+    }
+
+    .unlesh-data {
+        grid-area: unlesh-data;
+        padding-top: 90px;
+    }
+
+    .take-control {
+        grid-area: take-control;
+        padding-top: 93px;
+    }
+
+    img {
+        width: 109px;
+        height: 109px;
+    }
+
+    h3 {
+        margin: 0;
+        padding: 15px 0 34px 0;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 54px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    button {
+        margin-top: 17px;
+        font-family: 'Work Sans';
+        padding: 11px 17px;
+        box-sizing: border-box;
+        background: #013A4C;
+        border: 1px solid #013A4C;
+        border-radius: 4px;
+        color: #FFFFFF;
+        line-height: 18px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+.belive {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 850px;
+    background-image: url(../img/page5/table\ tennis.png);
+
+    @media (max-width: 1000px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: #01161d;
+    }
+
+    div {
+        margin-bottom: 30px;
+        padding-left: 144px;
+
+        @media (max-width: 1000px) {
+            padding-left: 0;
+        }
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 73px;
+        letter-spacing: 2px;
+        color: #F2DCE4;
+        margin: 0;
+    }
+
+    p {
+        padding: 31px 0 25px 0;
+        font-weight: 400;
+        font-size: 26px;
+        color: #FFFFFF;
+        letter-spacing: 4px;
+        margin: 0;
+    }
+
+    button {
+        padding: 11px 17px;
+    }
+}
+
+
+.customers-about {
+
+    &-header {
+        grid-area: header;
+        margin: 127px 0 57px 144px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: 0.4px;
+
+        @media (max-width: 1200px) {
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+
+    .customers-info {
+        display: flex;
+        margin-left: 130px;
+        overflow-x: scroll;
+        white-space: nowrap;
+
+        @media (max-width: 1200px) {
+            margin-left: 0;
+        }
+
+        .customers {
+            margin-left: 14px;
+            padding: 66px 0 0 33px;
+            border: 1px solid #D6DFE2;
+            border-radius: 8px;
+            height: 380px;
+            width: 375px;
+
+            &-reviews {
+                margin: 0;
+                padding-bottom: 18px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+            }
+
+            a {
+                color: #89285B;
+                font-size: 14px;
+                line-height: 18px;
+
+            }
+
+            &-names {
+                display: flex;
+
+                img {
+                    padding-right: 16px;
+                }
+
+                span {
+
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #013A4C;
+                }
+            }
+
+            .Mattias-Johnson {
+                margin-top: 99px;
+            }
+
+            .Elin-Skoglund {
+                margin-top: 81px;
+            }
+
+            .Tor-Myhrman {
+                margin-top: 105px;
+            }
+
+            .Jonatan-Larsson {
+                margin-top: 33px;
+            }
+        }
+    }
+}
+
+
+.seamless-integrations {
+    display: grid;
+    margin: 0 144px 0 144px;
+    grid-template-columns: repeat(6, 17% 17% 17% 17% 17% 15%);
+    grid-template-rows: repeat(6, min-content);
+    grid-template-areas:
+        "seamless-integrations-content seamless-integrations-content . seamless-integrations-img . ."
+        "next-trick next-trick next-trick  . visit-blog-button ."
+        "basic-guide basic-guide basic-guide basic-guide basic-guide basic-guide"
+        "documents-29 documents-29 sweco sweco master-digital master-digital"
+        "more-from-header  more-from-header more-from-header more-from-header more-from-header more-from-header"
+        "hare hare hare hand hand hand";
+    color: #013A4C;
+
+    @media (max-width:1300px) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+
+    &-content {
+        grid-area: seamless-integrations-content;
+        margin: 442px 0 340px 0;
+        white-space: nowrap;
+
+        @media (max-width:1300px) {
+            text-align: center;
+        }
+
+        .seamless-integrations-content-header {
+            margin: 0;
+            font-weight: 400;
+            font-size: 72px;
+            line-height: 72px;
+            letter-spacing: 0.4px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 21px;
+            line-height: 28px;
+            padding: 30px 0 19px 0;
+        }
+    }
+
+    .seamless-integrations-img {
+        margin-left: 100px;
+        grid-area: seamless-integrations-img;
+        padding-top: 301px;
+        height: 600px;
+
+
+        @media (max-width:1130px) {
+            margin-left: 0;
+            height: 500px;
+        }
+
+        @media (max-width:935px) {
+            margin-left: -50px;
+        }
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: 0.4px;
+        color: #013A4C;
+    }
+
+    .next-trick {
+        grid-area: next-trick;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .visit-blog-button {
+        grid-area: visit-blog-button;
+        margin-left: 215px;
+        width: 146px;
+        height: 50px;
+
+        @media (max-width:1158px) {
+            margin-left: 150px;
+        }
+
+        @media (max-width:969px) {
+            margin-left: 70px;
+        }
+
+    }
+
+    .basic-guide {
+        grid-area: basic-guide;
+        display: flex;
+        margin-top: 75px;
+        padding: 48px 0 0 32px;
+        background: #F2DCE4;
+        max-width: 1120px;
+        height: 477px;
+        border-radius: 8px;
+        white-space: nowrap;
+
+        @media (max-width:1200px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            padding: 4px 8px 6px 8px;
+            border: none;
+            background: #B73D8B;
+            color: #F2DCE4;
+            border-radius: 2px;
+            width: 51px;
+            height: 21px;
+            font-size: 11px;
+            line-height: 11px;
+            cursor: pointer;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 69px 0 120px 0;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: 0.4px;
+        }
+
+        a {
+            font-size: 11px;
+            line-height: 16px;
+            color: #013A4C;
+        }
+
+        .e-signature {
+            padding-right: 19px;
+        }
+
+        .telephone-img {
+            margin: 0 0 80px 180px;
+            height: 450px;
+
+            @media (max-width:1200px) {
+                display: none;
+            }
+        }
+    }
+
+    .information-menu {
+        margin: 24px 0 0 24px;
+        max-width: 368px;
+        // white-space: nowrap;
+
+        button {
+            cursor: pointer;
+        }
+
+        @media (max-width:1400px) {
+            margin-left: 0;
+        }
+
+        @media (max-width:955px) {
+            background-image: none;
+        }
+    }
+
+    .documents-29 {
+        margin-left: 0;
+        grid-area: documents-29;
+        background: #013A4C;
+        background-image: url(../img/page6/Woman_telephone.svg);
+        background-repeat: no-repeat;
+        padding: 231px 0 25px 24px;
+
+        @media (max-width:1400px) {
+            max-width: 100%;
+        }
+
+        button {
+            padding: 4px 8px 6px 8px;
+            background: #F2DCE4;
+            border: none;
+            border-radius: 2px;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 11px;
+            color: #013A4C;
+        }
+
+        div {
+            padding: 18px 0 69px 0;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.4px;
+            color: #FFFFFF;
+        }
+
+        a {
+            color: #FFFFFF;
+        }
+
+        .contract-automation {
+            padding-right: 19px;
+        }
+    }
+
+    .sweco {
+        grid-area: sweco;
+        padding: 24px 122px 88px 122px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #0F5987;
+        border-radius: 8px;
+
+        .customer-story-button {
+            padding: 4px 8px 6px 8px;
+            background: #187BB7;
+            border: none;
+            border-radius: 2px;
+            font-size: 11px;
+            line-height: 11px;
+            color: #FFFFFF;
+        }
+
+        h3 {
+            color: #FFFFFF;
+            margin: 0;
+            padding: 107px 0 116px 0;
+        }
+
+        .read-full-story-button {
+            padding: 11px 17 px;
+            background: #0F5987;
+            border: 1px solid #FFFFFF;
+            border-radius: 4px;
+            width: 135px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+    }
+
+    .master-digital {
+        grid-area: master-digital;
+        display: block;
+        align-items: center;
+        padding: 231px 0 25px 24px;
+        background: #F2DCE4;
+        background-image: url(../img/page6/man\ on\ the\ chair.svg);
+        background-repeat: no-repeat;
+
+        button {
+            padding: 4px 8px 6px 8px;
+            border: none;
+            background: #B73D8B;
+            border-radius: 2px;
+            font-size: 11px;
+            line-height: 11px;
+            color: #F2DCE4;
+        }
+
+        div {
+            padding: 18px 0 37px 0;
+            font-size: 23px;
+            line-height: 32px;
+            letter-spacing: 0.4px;
+        }
+
+        a {
+            font-size: 10px;
+            line-height: 16px;
+            color: #013A4C;
+        }
+
+        .sales {
+            padding-right: 19px;
+        }
+    }
+
+    h2 {
+        grid-area: more-from-header;
+        margin: 303px 0 49px 0;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: 0.4px;
+        color: #013A4C;
+
+        @media (max-width:1400px) {
+            text-align: center;
+        }
+    }
+
+    .more-from-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 315px;
+
+            @media (max-width:1240px) {
+                height: 200px;
+            }
+        }
+
+        a {
+            padding: 18px 0 19px 0;
+            font-size: 16px;
+            line-height: 20px;
+            color: #013A4C;
+        }
+
+        span {
+            font-size: 31px;
+            line-height: 40px;
+            letter-spacing: 0.4px;
+            text-align: center;
+
+            @media (max-width:887px) {
+                font-size: 25px;
+                line-height: 40px;
+            }
+        }
+
+        button {
+            margin: 22px 0 144px 0;
+        }
+    }
+
+    .hare {
+        grid-area: hare;
+    }
+
+    .hand {
+        grid-area: hand;
+        margin-left: 32px;
+
+        @media (max-width:1240px) {
+            margin-left: 0;
+        }
+    }
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    background: #013A4C;
+    padding: 64px 144px 0 144px;
+    color: #99B0B7;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 20px;
+
+    .one-flow {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #346170;
+
+        &-adress {
+            @media (max-width:930px) {
+                display: none;
+            }
+        }
+
+        .white-headers {
+            color: #FFFFFF;
+        }
+
+        span {
+            padding-bottom: 13px;
+            cursor: pointer;
+        }
+
+        img {
+            margin-bottom: 67px;
+
+            @media (max-width:930px) {
+                display: none;
+            }
+        }
+
+        &-menu {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .get-in {
+        display: flex;
+        margin-top: 48px;
+        color: #FFFFFF;
+        border-bottom: 1px solid #346170;
+
+        &-header {
+            font-size: 23px;
+            line-height: 32px;
+            letter-spacing: 0.4px;
+        }
+
+        &-info {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 77px;
+        }
+
+        &-button {
+            width: 153px;
+            height: 40px;
+            margin: 30px 0 0 50px;
+            padding: 11px 17px;
+        }
+    }
+
+    .footer-login {
+        display: flex;
+        align-items: center;
+        margin: 18px 0 76px 0;
+
+        .login {
+            padding-left: 0;
+        }
+
+        span {
+            padding-left: 32px;
+            cursor: pointer;
+        }
+
+        .earth-img {
+            padding-left: 18px;
+        }
+    }
+}
